@@ -90,7 +90,7 @@ python path/to/your/file.py
 ```
 
 **Examples:**
-
+python src/chapter0/exercise0a.py
 - `python src/chapter0/exercise0a.py`
 - `python src/chapter1/exercise1a.py`
 - `python answers/chapter0/answers0a.py`

@@ -13,5 +13,5 @@ Practice printing multiple inputs.
 """
 
 # Print a message that says "Welcome to coding!", but using commas between each word
-
+print("welcome   ","to","coding!")
 # Print your top 3 climates, with each climate separated by a comma
