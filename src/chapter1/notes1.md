@@ -37,3 +37,4 @@ There are some conventions with variables in Python. We'll practice using these 
 - Cannot have spaces, Python will raise an error
 
 Good examples: `name`, `favorite_color`, `number_of_pets`
+

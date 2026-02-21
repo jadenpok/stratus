@@ -22,7 +22,8 @@ Follow the rest of the instructions to create several more print statements.
 """
 
 # Print a message that says "Welcome to coding!"
-
-# Print a message about today's weather:
-
-# Print a message about your ideal climate:
+print("welcome to coding")
+# Print a message about today's weather:" mild heat, it is also sunny"
+print("mild heat, it is also sunny")
+# Print a message about your ideal climate:"very cold snowy day"
+print("ideal weather is cold and snowy")

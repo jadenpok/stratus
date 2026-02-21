@@ -18,9 +18,10 @@ Follow the instructions below to create your own weather variables.
 """
 
 # Create a variable called 'city' and store your city name in it.
-
+city="Katy_Texas"
 # Print your city variable.
-
+print(city)
 # Create a variable called 'state' and store the state name.
-
+state="Texas"
 # Print your state variable.
+print(state)
