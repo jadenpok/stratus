@@ -5,6 +5,7 @@
 A dictionary is a collection of **key-value pairs**. Think of it like a real dictionary where you look up a word (the key) to find its definition (the value). Or like a contact list where you look up a name to find a phone number.
 
 In weather data, you might want to map cities to their temperatures:
+
 - "Houston" → 85
 - "Austin" → 82
 - "Dallas" → 88
@@ -24,11 +25,13 @@ city_temps = {
 ```
 
 You can also create an empty dictionary:
+
 ```python
 weather_data = {}
 ```
 
 Keys are typically strings, but values can be any type:
+
 ```python
 houston_weather = {
     "temperature": 85,
@@ -100,17 +103,20 @@ print(city_temps)  # {"Houston": 85}
 ## Dictionary Methods
 
 ### keys() - Get all keys
+
 ```python
 city_temps = {"Houston": 85, "Austin": 82, "Dallas": 88}
 print(city_temps.keys())  # dict_keys(['Houston', 'Austin', 'Dallas'])
 ```
 
 ### values() - Get all values
+
 ```python
 print(city_temps.values())  # dict_values([85, 82, 88])
 ```
 
 ### items() - Get all key-value pairs
+
 ```python
 print(city_temps.items())
 # dict_items([('Houston', 85), ('Austin', 82), ('Dallas', 88)])
@@ -133,6 +139,7 @@ if "Seattle" not in city_temps:
 ## Iterating Through Dictionaries
 
 Loop through keys:
+
 ```python
 city_temps = {"Houston": 85, "Austin": 82, "Dallas": 88}
 
@@ -144,6 +151,7 @@ for city in city_temps:
 ```
 
 Loop through values:
+
 ```python
 for temp in city_temps.values():
     print(temp)
@@ -153,6 +161,7 @@ for temp in city_temps.values():
 ```
 
 Loop through both keys and values:
+
 ```python
 for city, temp in city_temps.items():
     print(city, "is", temp, "degrees")
@@ -164,18 +173,21 @@ for city, temp in city_temps.items():
 ## Lists vs Dictionaries: When to Use Each
 
 **Use a list when:**
+
 - You have a simple collection of items
 - Order matters
 - Items are accessed by position/index
 - Example: `temperatures = [75, 78, 72, 80]`
 
 **Use a dictionary when:**
+
 - You need to look up values by a meaningful key
 - You're associating related pieces of data
 - Order doesn't matter (though Python 3.7+ maintains insertion order)
 - Example: `city_temps = {"Houston": 85, "Austin": 82}`
 
 **You can combine them:**
+
 ```python
 # List of dictionaries
 cities_data = [
