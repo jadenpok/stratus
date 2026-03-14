@@ -18,19 +18,26 @@ Now let's practice with weather-themed conditionals!
 """
 
 # Example 1: Check if it's sunny
-weather_condition = "sunny"
+weather_condition = "cloudy"
 
 # Create an if statement that checks if weather_condition equals "sunny" and prints "Wear sunglasses!"
-
-# Create an else statement that prints "No sunglasses needed!"
+if weather_condition == "sunny":
+    print("Wear sunglasses!")
+else:
+    print("No sunglasses needed!")
 
 # Test your code by changing the weather_condition variable to different values like "sunny" or "cloudy"
 
 # Example 2: Temperature check
-current_temp = 75
+current_temp = 60
 
 # Create an if statement that checks if current_temp is greater than 70 and prints "Perfect weather!"
-
+if current_temp > 70:
+    print("Perfect weather!")
+elif current_temp > 50:
+    print ("It's an okay day.")
+else:
+    print("A bit chilly today!")
 # Create an else statement that prints "A bit chilly today!"
 
 # Test your code by changing the current_temp variable to different values

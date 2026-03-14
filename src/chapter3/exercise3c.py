@@ -25,9 +25,13 @@ Now let's practice creating functions that return values!
 """
 
 # Create a function called 'calculate_average' that takes two temperatures and returns their average
-
+def calculate_average(temp1, temp2):
+    average = ((temp1+temp2)/2)
+    return average
 # Call your function with temperatures 75 and 85, store the result, and print it
 
+average_temp = calculate_average(90,12)
+print(average_temp)
 # Create a function called 'convert_to_fahrenheit' that takes celsius and returns fahrenheit
 # Formula: (celsius * 9/5) + 32
 
